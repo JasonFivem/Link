@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Linkvertise Clone</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Earn money with your links</h1>
+            <p>Monetize your traffic with Linkvertise</p>
+            <a href="#" class="btn">Get Started</a>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <img src="service1.jpg" alt="Service 1">
+                <h3>Link Shortener</h3>
+                <p>Shorten your links and track clicks</p>
+            </div>
+            <div class="service">
+                <img src="service2.jpg" alt="Service 2">
+                <h3>Link Monetization</h3>
+                <p>Earn money from your links</p>
+            </div>
+            <div class="service">
+                <img src="service3.jpg" alt="Service 3">
+                <h3>Link Analytics</h3>
+                <p>Track your link performance with analytics</p>
+            </div>
+        </section>
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <div class="plan">
+                <h3>Free Plan</h3>
+                <p>Basic features</p>
+                <a href="#" class="btn">Sign Up</a>
+            </div>
+            <div class="plan">
+                <h3>Premium Plan</h3>
+                <p>Advanced features</p>
+                <a href="#" class="btn">Sign Up</a>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2021 Linkvertise Clone</p>
+    </footer>
+</body>
+</html>
